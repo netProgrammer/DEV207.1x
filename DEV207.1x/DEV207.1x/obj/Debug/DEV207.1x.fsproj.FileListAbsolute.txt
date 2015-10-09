@@ -1,0 +1,8 @@
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\bin\Debug\DEV207._1x.exe.config
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\bin\Debug\DEV207._1x.XML
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\bin\Debug\DEV207._1x.exe
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\bin\Debug\DEV207._1x.pdb
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\bin\Debug\FSharp.Core.dll
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\bin\Debug\FSharp.Core.xml
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\obj\Debug\DEV207._1x.exe
+D:\F#Garbage\DEV207.1x\DEV207.1x\DEV207.1x\obj\Debug\DEV207._1x.pdb
