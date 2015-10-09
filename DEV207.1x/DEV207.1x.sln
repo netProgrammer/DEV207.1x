@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DEV207.1x", "DEV207.1x\DEV2
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HWIntroductionKoan", "HWIntroductionKoan\HWIntroductionKoan.fsproj", "{EFF82C67-3251-4C4A-B651-A16F8B0B964D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HWIntroductionProblem", "HWIntroductionProblem\HWIntroductionProblem.fsproj", "{DA501696-579F-43C4-AF6E-FD7395DD7E48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EFF82C67-3251-4C4A-B651-A16F8B0B964D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFF82C67-3251-4C4A-B651-A16F8B0B964D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFF82C67-3251-4C4A-B651-A16F8B0B964D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA501696-579F-43C4-AF6E-FD7395DD7E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA501696-579F-43C4-AF6E-FD7395DD7E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA501696-579F-43C4-AF6E-FD7395DD7E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA501696-579F-43C4-AF6E-FD7395DD7E48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
