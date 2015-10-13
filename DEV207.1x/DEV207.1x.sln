@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HWIntroductionProblem", "HW
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HP2Task1", "..\HP2Task1\HP2Task1\HP2Task1.fsproj", "{053FA870-0285-41AF-81FE-F14B3369472F}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HWConditionalsAndLoops", "HWConditionalsAndLoops\HWConditionalsAndLoops.fsproj", "{F1E74090-2D43-4165-8508-341C9B597728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{053FA870-0285-41AF-81FE-F14B3369472F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{053FA870-0285-41AF-81FE-F14B3369472F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{053FA870-0285-41AF-81FE-F14B3369472F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E74090-2D43-4165-8508-341C9B597728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E74090-2D43-4165-8508-341C9B597728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E74090-2D43-4165-8508-341C9B597728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E74090-2D43-4165-8508-341C9B597728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
