@@ -63,3 +63,6 @@ Desktop.ini
 
 *.sln.cache
 packages
+DEV207.1x/DEV207.1x/obj/Debug/DEV207._1x.pdb
+*.exe
+*.pdb

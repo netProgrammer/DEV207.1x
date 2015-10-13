@@ -1,12 +1,36 @@
 ﻿open System
-
-[<EntryPoint>]    
+ 
+let ageCategory name age =
+    let category =
+        if age >= 20 then "is no longer a teenager"
+        elif age >=13 then "is a teenager"
+        else "is a kid"
+    printfn "%s %s" name category
+ 
+let rec registerNew () =
+    printfn "Register new person (Y/N)?"
+    match Console.ReadKey().Key with
+        | ConsoleKey.Y -> true
+        | ConsoleKey.N -> false
+        | _ -> registerNew()
+ 
+let rec registerName () =
+    printfn "Name: "
+    let name = Console.ReadLine()
+    if name.Length >= 1
+        then name
+        else registerName()
+ 
+let rec registerAge() =
+    printfn "Age: "
+    let success,age = Console.ReadLine()
+                        |> System.Int32.TryParse
+    if success
+        then age
+        else registerAge()
+   
+[<EntryPoint>]
 let main argv =
-    Console.Write("Please enter how far you traveled: ")
-    let distance = float (Console.ReadLine())
-    Console.Write("Please enter how much fuel you used: ")
-    let fuel = float (Console.ReadLine())
-    let consumption = distance / fuel
-    Console.WriteLine("Your car does a distance of " + (string consumption) + "  per single unit of fuel ")
-    Console.ReadKey()
-    0 // return an integer exit code
+    while registerNew() do
+        ageCategory (registerName ()) (registerAge ())
+    0
