@@ -17,6 +17,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HWConditionalsAndLoopsProbl
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HP3Task", "HP3Task\HP3Task.fsproj", "{28DF2448-7EC4-4845-B78D-9744E1F98903}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HW3Koan", "HW3Koan\HW3Koan.fsproj", "{CCB05F49-E534-4857-92D0-65033E349F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{28DF2448-7EC4-4845-B78D-9744E1F98903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28DF2448-7EC4-4845-B78D-9744E1F98903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28DF2448-7EC4-4845-B78D-9744E1F98903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB05F49-E534-4857-92D0-65033E349F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB05F49-E534-4857-92D0-65033E349F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB05F49-E534-4857-92D0-65033E349F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB05F49-E534-4857-92D0-65033E349F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
