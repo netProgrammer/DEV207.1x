@@ -25,6 +25,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HPPatterns", "HPPatterns\HP
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HWPatterns", "HWPatterns\HWPatterns.fsproj", "{F817E2DF-CC97-43B1-B0F9-1DD3194B40B0}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HWPatternsKoan", "HWPatternsKoan\HWPatternsKoan.fsproj", "{727D80C4-B20D-42E3-87AF-68C45F31778D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F817E2DF-CC97-43B1-B0F9-1DD3194B40B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F817E2DF-CC97-43B1-B0F9-1DD3194B40B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F817E2DF-CC97-43B1-B0F9-1DD3194B40B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727D80C4-B20D-42E3-87AF-68C45F31778D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727D80C4-B20D-42E3-87AF-68C45F31778D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727D80C4-B20D-42E3-87AF-68C45F31778D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727D80C4-B20D-42E3-87AF-68C45F31778D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
