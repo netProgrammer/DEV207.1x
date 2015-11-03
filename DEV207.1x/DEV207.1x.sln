@@ -21,6 +21,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HW3Koan", "HW3Koan\HW3Koan.
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GoldenRatio", "GoldenRatio\GoldenRatio.fsproj", "{6E720E31-34FA-437E-AAEC-6C458B9BD6C2}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HPPatterns", "HPPatterns\HPPatterns.fsproj", "{A56DBE54-E633-4D50-BA82-13F09E8D61B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6E720E31-34FA-437E-AAEC-6C458B9BD6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E720E31-34FA-437E-AAEC-6C458B9BD6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E720E31-34FA-437E-AAEC-6C458B9BD6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56DBE54-E633-4D50-BA82-13F09E8D61B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56DBE54-E633-4D50-BA82-13F09E8D61B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56DBE54-E633-4D50-BA82-13F09E8D61B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56DBE54-E633-4D50-BA82-13F09E8D61B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

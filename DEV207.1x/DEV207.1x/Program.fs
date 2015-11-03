@@ -1,36 +1,27 @@
 ﻿open System
  
-let ageCategory name age =
-    let category =
-        if age >= 20 then "is no longer a teenager"
-        elif age >=13 then "is a teenager"
-        else "is a kid"
-    printfn "%s %s" name category
+let goldenRatio = (1.0 + Math.Sqrt(5.0)) / 2.0
  
-let rec registerNew () =
-    printfn "Register new person (Y/N)?"
-    match Console.ReadKey().Key with
-        | ConsoleKey.Y -> true
-        | ConsoleKey.N -> false
-        | _ -> registerNew()
+let getResultTuple number =
+    (number, float number * goldenRatio)
  
-let rec registerName () =
-    printfn "Name: "
-    let name = Console.ReadLine()
-    if name.Length >= 1
-        then name
-        else registerName()
- 
-let rec registerAge() =
-    printfn "Age: "
-    let success,age = Console.ReadLine()
-                        |> System.Int32.TryParse
-    if success
-        then age
-        else registerAge()
-   
 [<EntryPoint>]
 let main argv =
-    while registerNew() do
-        ageCategory (registerName ()) (registerAge ())
-    0
+    let numbers =
+        [ let mutable run = true
+        while run do
+            Console.Write "Enter a number: "
+            let canparse, number = Double.TryParse(Console.ReadLine())
+            if canparse then
+                yield getResultTuple number
+            else
+                Console.WriteLine "Could not parse that number."
+            Console.WriteLine "Do you want to add more numbers (y/n)? "
+            if Console.ReadLine().ToLower() = "n" then
+                run <- false ]
+ 
+    for x in numbers do
+        let originalNumber, result = x
+        printf "(%f , %f)\n" originalNumber result
+    Console.ReadKey()
+    0 // return an integer exit code
